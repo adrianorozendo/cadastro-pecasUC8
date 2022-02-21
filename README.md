@@ -1,4 +1,4 @@
-# Atividade-Cadastro-de-Pecas
+# Cadastro-de-Pecas
 
-Atividade Realizada na aula de Logica de programação - Atividade 1
-Senai SP - Prof° Jessica Santos
+Assimilacao de Logica de programação - Atividade 1
+UC8 Front-End
