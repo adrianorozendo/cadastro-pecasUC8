@@ -1,15 +1,15 @@
-var listadepecas = ["Fontes", "Placa Mãe", "Placa de video","SSD","memorias"]
+var listadepecas = ["bios", "Placa Mãe", "Led Monitor14","SSD","memorias"]
 
 if (listadepecas < 10){
     
     console.log("É possível cadastrar mais peças")
 } else {
-    console.log("Não tem mais espaço na lista")
+    console.log("Espaço insuficiente na lista")
 }
 
 let peso = 50;
 if(peso<100){
-    console.log("A peça deve pesar no mínimo 100g")
+    console.log("Peso mínimo 100g")
 } else {
     console.log("A peça possui peso adequado")
 }
@@ -17,7 +17,7 @@ if(peso<100){
 
 let nomePeca = "X"
 if (nomePeca.length>3){
-    console.log("Nome da peça está adequado para o cadastro!")
+    console.log("Nome adequado para o cadastro!")
 } else if (nomePeca.length ==0){
     console.log("nome da peça não pode ser vazio")
 }else{
@@ -37,6 +37,6 @@ switch(nomePeca.length){
             console.log("O nome deve ter mais de 3 caracteres, digite um nome adequado")
             
             default:
-                console.log("nome da peça está adequado")
+                console.log("A peça possui nome adequado")
                 break;
 }
